@@ -1,0 +1,53 @@
+body{
+    background: url(../IMAGES/fon.jpg);
+}
+.carousel-inner {
+    height: 400px;
+  }
+  
+  .carousel-inner img {
+    height: 100%;
+  }
+  
+  @media (min-width: 1100px) {
+    .carousel-inner img {
+      width: 100%;
+    }
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-85%);
+    text-shadow: 1px 1px 10px #000;
+  }
+  
+  @media (max-width: 450px) {
+    .carousel-caption .display-2 {
+      font-size: 3em;
+    }
+  }
+  .social a {
+    font-size: 4em;
+    padding: 20px;
+  }
+  
+  .fa-facebook {color: #3b5998}
+  .fa-instagram {color: #517fa4}
+  .fa-twitter {color: #00aced}
+  .fa-youtube {color: #bb0000}
+  .fa-google-plus-g {color: #dd4b39}
+  
+  .fa-facebook:hover, .fa-twitter:hover,
+  .fa-instagram:hover, .fa-youtube:hover,
+  .fa-google-plus-g:hover {
+    color: #ccc;
+  }
+  
+  footer {
+    background-color: #3f3f3f;
+    padding-top: 50px;
+    border-top: 4px solid silver;
+    color: white;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
